@@ -1,1 +1,1 @@
-this is file2 from GitNewBranch
+this is file2 from GitNewBranch.Updated only newBranch.
