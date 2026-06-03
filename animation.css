@@ -1,0 +1,28 @@
+.box{
+    width:100px;
+    height:100px;
+    background-color:red;
+    border:3px solid black;
+    margin:50px;
+    animation : anim 5s;
+    position:absolute;
+    animation-iteration-count:3;
+    transform-origin: bottom left;
+    }
+@keyframes anim{
+    0%{
+        background-color:red;
+        transform:rotate(0deg);
+        
+    }
+    25%{
+        background-color:yellow;
+        transform:rotate(25deg);
+        border-radius:50%;
+    }
+    100%{
+        background-color:green;
+        transform:rotate(100deg);
+    }
+
+}

@@ -1,0 +1,32 @@
+
+
+
+.box{
+     background-color:green;
+     border:2px dashed black;
+
+
+
+
+}
+    @media screen and (min-width:1024px)
+    {
+        .box{
+        background-color:orange;
+        border:3px solid red;
+        }
+    }
+    @media screen and(max-width:500px)
+    {
+        .box{
+        background-color:blue;
+        border:4px dotted yellow;
+        }
+    }
+    @media screen and(max-width:600px)
+    {
+        .box{
+        background-color:red;
+        border:3px dashed green;
+        }
+    }

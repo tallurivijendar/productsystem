@@ -1,0 +1,15 @@
+.box{
+    width:100px;
+    height:100px;
+    background-color:green;
+    transition-property:all;
+    transition-delay:0s;
+    transition-timing-function:ease;
+    transform-origin: bottom left;
+}
+.box:hover{
+    width:200px;
+    height:200px;
+    background-color:blue;
+   
+}
