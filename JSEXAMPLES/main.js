@@ -33,3 +33,17 @@ let obj={
     }
 }
 obj.display();
+function Student(name,age)
+{
+    this.name=name;
+    this.age=age;
+    this.display=function()
+    {
+        console.log(this.name);
+        console.log(this.age);
+    }
+}
+let s1=new Student("naresh",20);
+let s2=new Student("lokesh",20);
+s1.display();
+s2.display();
